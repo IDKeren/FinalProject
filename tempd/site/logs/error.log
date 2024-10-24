@@ -1,0 +1,161 @@
+[Thu Aug 08 19:42:54.523333 2024] [wsgi:error] [pid 25227:tid 125335764158016] [client 192.168.90.140:41484] Timeout when reading response headers from daemon process 'FinalProject': /Final-Project/src/FinalProject/wsgi.py
+[Thu Aug 08 19:46:50.401999 2024] [wsgi:error] [pid 25227:tid 125335755765312] [client 192.168.90.140:55608] Timeout when reading response headers from daemon process 'FinalProject': /Final-Project/src/FinalProject/wsgi.py
+[Thu Aug 08 19:46:53.117315 2024] [wsgi:error] [pid 25226:tid 125335764158016] [client 192.168.90.140:55616] Timeout when reading response headers from daemon process 'FinalProject': /Final-Project/src/FinalProject/wsgi.py
+[Thu Aug 08 19:50:07.408000 2024] [wsgi:error] [pid 25227:tid 125335534302784] [client 192.168.90.140:57966] Timeout when reading response headers from daemon process 'FinalProject': /Final-Project/src/FinalProject/wsgi.py
+[Thu Aug 08 16:50:21.917536 2024] [wsgi:error] [pid 26352:tid 138303164577344] [remote 192.168.90.140:53380] Not Found: /static/admin/css/fonts.css
+[Thu Aug 08 16:50:52.768898 2024] [wsgi:error] [pid 26352:tid 138303164577344] [remote 192.168.90.140:35888] Not Found: /static/admin/css/fonts.css
+[Fri Aug 09 09:34:21.786980 2024] [wsgi:error] [pid 26352:tid 138303164577344] [remote 192.168.90.140:52490] Not Found: /static/admin/css/fonts.css
+[Sat Aug 10 10:09:14.482271 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926] mod_wsgi (pid=59970): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:09:14.482375 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926] mod_wsgi (pid=59970): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:09:14.484397 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926] Traceback (most recent call last):
+[Sat Aug 10 10:09:14.484464 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:09:14.484477 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]     application = get_wsgi_application()
+[Sat Aug 10 10:09:14.484487 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:09:14.484496 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]     django.setup(set_prefix=False)
+[Sat Aug 10 10:09:14.484505 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:09:14.484513 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:09:14.484522 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 91, in populate
+[Sat Aug 10 10:09:14.484529 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]     app_config = AppConfig.create(entry)
+[Sat Aug 10 10:09:14.484538 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/config.py", line 224, in create
+[Sat Aug 10 10:09:14.484546 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]     import_module(entry)
+[Sat Aug 10 10:09:14.484555 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[Sat Aug 10 10:09:14.484563 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sat Aug 10 10:09:14.484571 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[Sat Aug 10 10:09:14.484597 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[Sat Aug 10 10:09:14.484607 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926]   File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+[Sat Aug 10 10:09:14.484625 2024] [wsgi:error] [pid 59970:tid 138303282075200] [remote 192.168.90.140:37926] ModuleNotFoundError: No module named 'rest_framework'
+[Sat Aug 10 10:09:14.514741 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936] mod_wsgi (pid=59970): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:09:14.514813 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936] mod_wsgi (pid=59970): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:09:14.514932 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936] Traceback (most recent call last):
+[Sat Aug 10 10:09:14.514966 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:09:14.514977 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]     application = get_wsgi_application()
+[Sat Aug 10 10:09:14.514993 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:09:14.515006 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]     django.setup(set_prefix=False)
+[Sat Aug 10 10:09:14.515021 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:09:14.515032 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:09:14.515051 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:09:14.515068 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:09:14.515094 2024] [wsgi:error] [pid 59970:tid 138303164577344] [remote 192.168.90.140:37936] RuntimeError: populate() isn't reentrant
+[Sat Aug 10 10:09:30.655693 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456] mod_wsgi (pid=74994): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:09:30.655786 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456] mod_wsgi (pid=74994): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:09:30.656578 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456] Traceback (most recent call last):
+[Sat Aug 10 10:09:30.656627 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:09:30.656638 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]     application = get_wsgi_application()
+[Sat Aug 10 10:09:30.656648 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:09:30.656657 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]     django.setup(set_prefix=False)
+[Sat Aug 10 10:09:30.656666 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:09:30.656690 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:09:30.656700 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 91, in populate
+[Sat Aug 10 10:09:30.656708 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]     app_config = AppConfig.create(entry)
+[Sat Aug 10 10:09:30.656716 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/config.py", line 224, in create
+[Sat Aug 10 10:09:30.656724 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]     import_module(entry)
+[Sat Aug 10 10:09:30.656733 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[Sat Aug 10 10:09:30.656740 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sat Aug 10 10:09:30.656749 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[Sat Aug 10 10:09:30.656758 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[Sat Aug 10 10:09:30.656767 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456]   File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+[Sat Aug 10 10:09:30.656784 2024] [wsgi:error] [pid 74994:tid 139695866500672] [remote 192.168.90.140:55456] ModuleNotFoundError: No module named 'rest_framework'
+[Sat Aug 10 10:10:37.418832 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700] mod_wsgi (pid=74994): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:10:37.418912 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700] mod_wsgi (pid=74994): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:10:37.419046 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700] Traceback (most recent call last):
+[Sat Aug 10 10:10:37.419084 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:10:37.419094 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]     application = get_wsgi_application()
+[Sat Aug 10 10:10:37.419103 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:10:37.419112 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]     django.setup(set_prefix=False)
+[Sat Aug 10 10:10:37.419121 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:10:37.419129 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:10:37.419137 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:10:37.419145 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:10:37.419164 2024] [wsgi:error] [pid 74994:tid 139695749002816] [remote 192.168.90.140:47700] RuntimeError: populate() isn't reentrant
+[Sat Aug 10 10:10:52.508191 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592] mod_wsgi (pid=75117): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:10:52.508278 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592] mod_wsgi (pid=75117): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:10:52.509064 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592] Traceback (most recent call last):
+[Sat Aug 10 10:10:52.509121 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:10:52.509132 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]     application = get_wsgi_application()
+[Sat Aug 10 10:10:52.509143 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:10:52.509151 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]     django.setup(set_prefix=False)
+[Sat Aug 10 10:10:52.509160 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:10:52.509168 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:10:52.509177 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 91, in populate
+[Sat Aug 10 10:10:52.509184 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]     app_config = AppConfig.create(entry)
+[Sat Aug 10 10:10:52.509193 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/config.py", line 224, in create
+[Sat Aug 10 10:10:52.509201 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]     import_module(entry)
+[Sat Aug 10 10:10:52.509210 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[Sat Aug 10 10:10:52.509217 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sat Aug 10 10:10:52.509226 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[Sat Aug 10 10:10:52.509235 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[Sat Aug 10 10:10:52.509244 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592]   File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+[Sat Aug 10 10:10:52.509263 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:54592] ModuleNotFoundError: No module named 'rest_framework'
+[Sat Aug 10 10:14:18.368038 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340] mod_wsgi (pid=75117): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:14:18.368115 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340] mod_wsgi (pid=75117): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:14:18.368244 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340] Traceback (most recent call last):
+[Sat Aug 10 10:14:18.368279 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:14:18.368304 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]     application = get_wsgi_application()
+[Sat Aug 10 10:14:18.368315 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:14:18.368323 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]     django.setup(set_prefix=False)
+[Sat Aug 10 10:14:18.368332 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:14:18.368339 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:14:18.368348 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:14:18.368356 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:14:18.368375 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:45340] RuntimeError: populate() isn't reentrant
+[Sat Aug 10 10:15:10.465106 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470] mod_wsgi (pid=75117): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:15:10.465177 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470] mod_wsgi (pid=75117): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:15:10.465302 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470] Traceback (most recent call last):
+[Sat Aug 10 10:15:10.465347 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:15:10.465357 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]     application = get_wsgi_application()
+[Sat Aug 10 10:15:10.465367 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:15:10.465376 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]     django.setup(set_prefix=False)
+[Sat Aug 10 10:15:10.465385 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:15:10.465393 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:15:10.465401 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:15:10.465409 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:15:10.465428 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:47470] RuntimeError: populate() isn't reentrant
+[Sat Aug 10 10:16:43.528343 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828] mod_wsgi (pid=75117): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:16:43.528419 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828] mod_wsgi (pid=75117): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:16:43.528557 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828] Traceback (most recent call last):
+[Sat Aug 10 10:16:43.528591 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:16:43.528601 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]     application = get_wsgi_application()
+[Sat Aug 10 10:16:43.528611 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:16:43.528620 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]     django.setup(set_prefix=False)
+[Sat Aug 10 10:16:43.528629 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:16:43.528636 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:16:43.528645 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:16:43.528652 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:16:43.528677 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:48828] RuntimeError: populate() isn't reentrant
+[Sat Aug 10 10:40:55.607997 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136] mod_wsgi (pid=75117): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:40:55.608061 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136] mod_wsgi (pid=75117): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:40:55.608460 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136] Traceback (most recent call last):
+[Sat Aug 10 10:40:55.608505 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:40:55.608516 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]     application = get_wsgi_application()
+[Sat Aug 10 10:40:55.608526 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:40:55.608534 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]     django.setup(set_prefix=False)
+[Sat Aug 10 10:40:55.608543 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:40:55.608551 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:40:55.608560 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:40:55.608567 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:40:55.608586 2024] [wsgi:error] [pid 75117:tid 123699430774336] [remote 192.168.90.140:56136] RuntimeError: populate() isn't reentrant
+[Sat Aug 10 10:46:02.023310 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740] mod_wsgi (pid=75117): Failed to exec Python script file '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:46:02.023400 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740] mod_wsgi (pid=75117): Exception occurred processing WSGI script '/Final-Project/src/FinalProject/wsgi.py'.
+[Sat Aug 10 10:46:02.023550 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740] Traceback (most recent call last):
+[Sat Aug 10 10:46:02.023595 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]   File "/Final-Project/src/FinalProject/wsgi.py", line 16, in <module>
+[Sat Aug 10 10:46:02.023607 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]     application = get_wsgi_application()
+[Sat Aug 10 10:46:02.023616 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]   File "/Final-Project/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Sat Aug 10 10:46:02.023625 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]     django.setup(set_prefix=False)
+[Sat Aug 10 10:46:02.023634 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]   File "/Final-Project/venv/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+[Sat Aug 10 10:46:02.023642 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]     apps.populate(settings.INSTALLED_APPS)
+[Sat Aug 10 10:46:02.023651 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]   File "/Final-Project/venv/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+[Sat Aug 10 10:46:02.023659 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740]     raise RuntimeError("populate() isn't reentrant")
+[Sat Aug 10 10:46:02.023678 2024] [wsgi:error] [pid 75117:tid 123699321669184] [remote 192.168.90.140:35740] RuntimeError: populate() isn't reentrant
+[Sun Aug 11 16:35:42.950828 2024] [wsgi:error] [pid 121368:tid 123699321669184] [remote 127.0.0.1:34382] Not Found: /static/css/index.css
+[Sun Aug 11 16:35:42.959389 2024] [wsgi:error] [pid 121368:tid 123699439167040] [remote 127.0.0.1:34396] Not Found: /static/frontend/main.js
+[Sun Aug 11 16:35:45.175184 2024] [wsgi:error] [pid 121368:tid 123699330061888] [remote 127.0.0.1:34396] Not Found: /static/css/index.css
+[Sun Aug 11 16:35:45.180426 2024] [wsgi:error] [pid 121368:tid 123699439167040] [remote 127.0.0.1:34382] Not Found: /static/frontend/main.js
+[Sun Aug 11 16:35:45.191809 2024] [wsgi:error] [pid 121368:tid 123699321669184] [remote 127.0.0.1:34396] Not Found: /favicon.ico
+[Sun Aug 11 16:40:12.505433 2024] [wsgi:error] [pid 121368:tid 123699321669184] [remote 127.0.0.1:38054] Not Found: /static/css/index.css
+[Sun Aug 11 16:40:12.509423 2024] [wsgi:error] [pid 121368:tid 123699439167040] [remote 127.0.0.1:38068] Not Found: /static/frontend/main.js
+[Sun Aug 11 16:40:12.527318 2024] [wsgi:error] [pid 121368:tid 123699330061888] [remote 127.0.0.1:38068] Not Found: /static/css/index.css
+[Sun Aug 11 16:40:12.531987 2024] [wsgi:error] [pid 121368:tid 123699439167040] [remote 127.0.0.1:38054] Not Found: /static/frontend/main.js
+[Sat Aug 31 16:57:17.129056 2024] [authz_core:error] [pid 387789:tid 123699447559744] [client 127.0.0.1:34428] AH01630: client denied by server configuration: /Final-Project/src
+[Sun Sep 01 22:18:21.748571 2024] [authz_core:error] [pid 387790:tid 123699447559744] [client 127.0.0.1:51884] AH01630: client denied by server configuration: /Final-Project/src, referer: http://localhost:3000/
+[Sun Sep 01 22:18:23.268761 2024] [authz_core:error] [pid 387790:tid 123699439167040] [client 127.0.0.1:51884] AH01630: client denied by server configuration: /Final-Project/src, referer: http://localhost:3000/
+[Sun Sep 01 22:18:23.289035 2024] [authz_core:error] [pid 387790:tid 123699430774336] [client 127.0.0.1:51884] AH01630: client denied by server configuration: /Final-Project/src, referer: http://localhost:3000/

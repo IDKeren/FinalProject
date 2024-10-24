@@ -1,0 +1,8 @@
+confidence level,   distance threshold (5 meters),  average miss location amount,   average step amount
+2/3,                1,                              0.035767935767935764,           14.341713210536739
+2/3,                1.2,                            0.06036792727969198,            10.137286188756777
+1/2,                1,                              0.1330065305065305,             11.016529304029307
+7/12,               1.1,                            0.08928811928811929,            10.175281385281385
+
+
+this is the average of 30 tests, 2 first are inputs, 2 latest are output
